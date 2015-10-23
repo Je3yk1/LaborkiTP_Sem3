@@ -58,4 +58,6 @@ public class CardsTest {
 		assertEquals(4, tens);
 		assertEquals(4, jack);
 	}
+	
+	
 }
