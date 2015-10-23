@@ -17,10 +17,10 @@ public class NumberJ3Test extends TestCase {
 	Number liczba = null;
 	
 	public void setUp() {
-		try{liczba = new Number(14);}
-		catch(NumberException e){
-			fail();
-		}
+		liczba = new Number(14);
+		
+		
+		
 	}
 	@Test
 	public void testBin() {

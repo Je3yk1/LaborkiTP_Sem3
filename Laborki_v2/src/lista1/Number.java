@@ -14,11 +14,10 @@ public class Number {
 	 * Konstruktor klasy
 	 * @param a
 	 */
-	public Number(int a) throws NumberException{
-	if(a>=0)
+	public Number(int a) {
+	
 		this.a = a;
-	else
-		throw new NumberException();
+	
 	}
 	/**
 	 * Funkcja zwraca nam postac binarna przechowywanej liczby naturalnej
