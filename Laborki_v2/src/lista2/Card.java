@@ -18,6 +18,6 @@ public class Card {
 	}
 	
 	public String getAll(){
-		return rank+""+type;
+		return rank+"_"+type;
 	}
 }

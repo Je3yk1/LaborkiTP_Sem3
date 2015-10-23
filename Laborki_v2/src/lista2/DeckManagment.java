@@ -39,11 +39,11 @@ public class DeckManagment {
 		CardsMap.put(13, "King");
 		CardsMap.put(14, "Ace");
 		
-		for(int i=2; i<=14; i++){
-			Deck.add(new Card(CardsMap.get(i), "Diamonds"));
-			Deck.add(new Card(CardsMap.get(i), "Spades"));
-			Deck.add(new Card(CardsMap.get(i), "Hearts"));
-			Deck.add(new Card(CardsMap.get(i), "Clubs"));
+		for(int i=2; i<15; i++){
+			Deck.add(new Card((String)CardsMap.get(i), "Diamonds"));
+			Deck.add(new Card((String)CardsMap.get(i), "Spades"));
+			Deck.add(new Card((String)CardsMap.get(i), "Hearts"));
+			Deck.add(new Card((String)CardsMap.get(i), "Clubs"));
 		}
 		return Deck;
 	}
