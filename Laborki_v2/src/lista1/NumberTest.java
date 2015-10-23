@@ -72,5 +72,7 @@ Number liczba = null;
 	public void deleteNumber(){
 		liczba = null;
 	}
+	@Ignore
+	public void IgnoredMethodFromHeaven(){}
 	
 }
