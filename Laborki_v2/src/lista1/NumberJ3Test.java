@@ -16,13 +16,12 @@ public class NumberJ3Test extends TestCase {
 	
 	Number liczba = null;
 	
+	
 	public void setUp() {
 		liczba = new Number(14);
-		
-		
-		
 	}
 	@Test
+	
 	public void testBin() {
 		
 		String result = liczba.printBin();
